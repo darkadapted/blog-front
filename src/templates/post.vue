@@ -38,7 +38,7 @@
 <!--                </p>-->
             </div>
             <div class="content">
-                <p><g-image style="max-width: 100%" :src="`http://localhost:1337${this.$page.project.cover.url}`"></g-image></p>
+                <p><g-image style="max-width: 100%" :src="`http://106.75.254.31:1337${this.$page.project.cover.url}`"></g-image></p>
             </div>
         </div>
     </Layout>

@@ -11,7 +11,7 @@
       <div class="projects">
         <div class="project" v-for="project in $page.projects.edges" :key="project.node.id">
           <g-link :to="`projects/${project.node.id}`" class="project-link">
-            <g-image class="img" alt="Example image" :src="`http://localhost:1337${project.node.cover.url}`" />
+            <g-image class="img" alt="Example image" :src="`http://106.75.254.31:1337${project.node.cover.url}`" />
             <h3 class="project-title">{{project.node.title}}</h3>
             <div class="categories">
               <span class="category" v-for="tag in project.node.tags" :key="tag.id">{{tag.tag}}</span>
