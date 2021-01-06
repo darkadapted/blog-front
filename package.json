@@ -1,0 +1,16 @@
+{
+  "name": "blog",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0"
+  },
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "markdown-it": "^12.0.4"
+  }
+}
